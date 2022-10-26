@@ -10,9 +10,9 @@ plt.bar(years, mentions,0.8)
 plt.xticks(years)
 plt.ylabel("of time I heard someone say 'data science'")
 plt.ticklabel_format(useOffset=False)
-plt.axis([2016.5,2018.5,499,506])
-plt.title("Look at the 'Huge' Increase!")
-plt.savefig(r"../dszero/ch03/figura03_04.png")
+plt.axis([2016.5,2018.5,0,550])
+plt.title("Not So Huge Anumore")
+plt.savefig(r"..//dszero/ch03/figura03_05.png")
 plt.show()
 
 
