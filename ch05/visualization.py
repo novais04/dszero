@@ -1,7 +1,10 @@
-'''
-Exemplo de gráfico de linhas simples
-'''
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Oct 28 08:06:58 2022
 
+@author: anselmo
+"""
 from matplotlib import pyplot as plt
 
 years = [1950, 1960, 1970, 1980, 1990, 2000, 2010]
@@ -18,5 +21,3 @@ plt.ylabel('Billions of $')
 plt.xlabel('Year')
 plt.savefig('..//dszero/ch03/figura03_01.png')
 plt.show()
-
-
